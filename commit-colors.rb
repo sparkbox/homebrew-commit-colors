@@ -6,7 +6,6 @@ class CommitColors < Formula
   desc "See a lovely color swatch in your terminal every time you author a commit."
   homepage "https://github.com/sparkbox/commit-colors"
   version "2.0.1"
-  bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
